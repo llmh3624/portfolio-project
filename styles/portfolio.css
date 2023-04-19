@@ -1,11 +1,49 @@
+:root {
+  --primary-color: #13547a;
+  --secondary-color: #80d0c7;
+  --tertiary-color: #222831;
+  --accent-color: #eeeeee;
+
+  --default-font-family: "Urbanist", sans-serif;
+  --accent-font-family: "Roboto Mono", monospace;
+}
+
 body {
-  font-family: "Urbanist", sans-serif;
+  font-family: var(--default-font-family);
 }
 
 h1 {
   font-weight: 700;
+  font-size: 96px;
+  color: var(--accent-color);
 }
 
-p {
-  font-family: "Roboto Mono", monospace;
+h2 {
+  font-weight: 300;
+  font: 40px;
+}
+
+h3 {
+  font-family: var(--accent-font-family);
+}
+
+.btn-branding {
+  background: var(--tertiary-color);
+  border-radius: 4px;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: var(--accent-font-family);
+}
+
+.hero {
+  background: linear-gradient(
+    15deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+  text-align: center;
+  padding: 160px 20px;
 }
