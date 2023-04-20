@@ -55,8 +55,8 @@ p {
 }
 
 h2 {
-  color:#00ADB5;
-  font-size: 40px;;
+  color: #00adb5;
+  font-size: 40px;
 }
 
 .btn-branding-outline {
@@ -70,14 +70,14 @@ h2 {
 }
 
 .project-desciption {
-  padding:160px 60px;
+  padding: 160px 60px;
   background-color: #eeeeee;
 }
 
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
-    line-height: 2;
+    line-height: 1;
   }
 
   .hero {
