@@ -35,6 +35,19 @@ p {
   font-family: var(--accent-font-family);
 }
 
+
+.btn-branding:hover{
+  background: var(--accent-color);
+  border-radius: 4px;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: var(--accent-font-family);
+
+}
+
 .hero {
   background: linear-gradient(
     15deg,
@@ -63,6 +76,15 @@ h2 {
   color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
   background-color: var(--tertiary-color);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+  background-color: var(--secondary-color);
   border-radius: 5px;
   font-size: 18px;
   line-height: 27px;
@@ -100,4 +122,33 @@ h2 {
     text-align: center;
     font-size: 15px;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--primary-color);
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section .btn-branding{
+  border:3px solid #00adb5;
 }
