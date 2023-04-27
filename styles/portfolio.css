@@ -100,7 +100,7 @@ p {
   font: 50px;
 }
 
-.project-links{
+.project-links {
   text-decoration: none;
   color: var(--secondary-color);
   text-align: center;
@@ -208,6 +208,17 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--accent-color);
   background: var(--tertiary-color);
+}
+
+.source-link,
+.source-link a {
+  font-size: 14px;
+  color: #13547a;
+  text-decoration: none;
+}
+
+.source-link a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
