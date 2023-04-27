@@ -35,8 +35,7 @@ p {
   font-family: var(--accent-font-family);
 }
 
-
-.btn-branding:hover{
+.btn-branding:hover {
   background: var(--accent-color);
   border-radius: 4px;
   border: 2px solid var(--primary-color);
@@ -45,7 +44,6 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   font-family: var(--accent-font-family);
-
 }
 
 .hero {
@@ -127,8 +125,10 @@ h2 {
     text-align: center;
     padding: 0;
   }
+  p {
+    text-align: center;
+  }
 }
-
 
 .content-container {
   padding: 160px 20px;
@@ -149,6 +149,19 @@ h2 {
   margin: 30px;
 }
 
-.content-container .btn-branding{
-  border:3px solid #00adb5;
+.content-container .btn-branding {
+  border: 3px solid #00adb5;
+}
+
+.contact-info, .contact-info p {
+  text-align: center;
+}
+
+
+.contact-info a{
+  color: var(--secondary-color);
+}
+
+.contact-info a:hover{
+  color: var(--primary-color);
 }
