@@ -1,6 +1,6 @@
 :root {
   --primary-color: #13547a;
-  --secondary-color: #80d0c7;
+  --secondary-color: #00adb5;
   --tertiary-color: #222831;
   --accent-color: #eeeeee;
 
@@ -66,10 +66,10 @@ p {
 }
 
 .btn-branding:hover {
-  background: var(--accent-color);
+  background: var(--tertiary-color);
   border-radius: 4px;
   border: 2px solid var(--primary-color);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -80,7 +80,7 @@ p {
   background: linear-gradient(
     15deg,
     var(--primary-color) 0%,
-    var(--secondary-color) 100%
+    #80d0c7 100%
   );
   text-align: center;
   padding: 160px 20px;
@@ -96,24 +96,24 @@ p {
 }
 
 h2 {
-  color: #00adb5;
+  color: var(--primary-color);
   font-size: 40px;
 }
 
 .btn-branding-outline {
   color: var(--secondary-color);
-  border: 3px solid var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   background-color: var(--tertiary-color);
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 .btn-branding-outline:hover {
   color: var(--tertiary-color);
-  border: 1px solid var(--tertiary-color);
+  border: 2px solid var(--tertiary-color);
   background-color: var(--secondary-color);
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
