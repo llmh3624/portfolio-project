@@ -48,6 +48,15 @@ h1 {
   line-height: 1.5;
   color: var(--accent-color);
 }
+h2 {
+  color: var(--secondary-color);
+  font-size: 40px;
+}
+h4 {
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
 
 p {
   font-family: var(--accent-font-family);
@@ -77,11 +86,7 @@ p {
 }
 
 .hero {
-  background: linear-gradient(
-    15deg,
-    var(--primary-color) 0%,
-    #80d0c7 100%
-  );
+  background: linear-gradient(15deg, var(--primary-color) 0%, #80d0c7 100%);
   text-align: center;
   padding: 160px 20px;
 }
@@ -93,11 +98,6 @@ p {
 .hero h3 {
   font-weight: 300;
   font: 50px;
-}
-
-h2 {
-  color: var(--primary-color);
-  font-size: 40px;
 }
 
 .btn-branding-outline {
@@ -121,7 +121,6 @@ h2 {
 
 .project-desciption {
   padding: 160px 60px;
-
 }
 
 .content-container {
@@ -131,7 +130,7 @@ h2 {
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .content-container h2 {
@@ -176,7 +175,7 @@ footer .contact-box p {
   color: var(--accent-color);
 }
 
-footer p{
+footer p {
   color: #00adb5;
 }
 footer .email-link {
@@ -203,6 +202,7 @@ footer .social-links a:hover {
   color: var(--accent-color);
   background: var(--tertiary-color);
 }
+
 
 @media (max-width: 900px) {
   h1 {
